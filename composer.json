@@ -7,7 +7,8 @@
         "symfony/process": "~2.3",
         "symfony/finder": "~2.3"
     },
-    "config": {
-        "bin-dir": "bin"
-    }
+    "autoload": {
+        "psr-4": { "Helhum\\T3Dev": "Classes/" }
+    },
+    "bin": "bin/t3dev"
 }
