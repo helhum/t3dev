@@ -1,6 +1,7 @@
 {
     "name": "helhum/t3dev",
     "description": "CLI Tools for TYPO3 Development",
+    "licence": "MIT",
 
     "require": {
         "symfony/console": "~2.3",
@@ -8,7 +9,7 @@
         "symfony/finder": "~2.3"
     },
     "autoload": {
-        "psr-4": { "Helhum\\T3Dev": "Classes/" }
+        "psr-4": { "Helhum\\T3Dev\\": "Classes/" }
     },
-    "bin": "bin/t3dev"
+    "bin": ["bin/t3dev"]
 }
