@@ -1,7 +1,7 @@
 {
     "name": "helhum/t3dev",
     "description": "CLI Tools for TYPO3 Development",
-    "licence": "MIT",
+    "license": "MIT",
 
     "require": {
         "symfony/console": "~2.3",
